@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RCJ-044")(type "KiCad")(uri "${KIPRJMOD}/Library/RCJ-044/RCJ-044.kicad_sym")(options "")(descr ""))
+  (lib (name "PJRAN1X1U04X")(type "KiCad")(uri "${KIPRJMOD}/Library/RCJ-044/PJRAN1X1U04X.kicad_sym")(options "")(descr ""))
+)
