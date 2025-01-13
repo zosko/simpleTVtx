@@ -2,14 +2,14 @@
 Making the simplest TV Transmitter
 
 ## BOM
-2 x 0.01uF
-1 x 10pF
-1 x 100uF
-1 x 10pF (trimmer)
-1 x 10k
-1 x 27k
-1 x 500ohm (trimmer)
-1 x 2SC1047 (NPN)(ECB)
+- 2 x 0.01uF
+- 1 x 10pF
+- 1 x 100uF
+- 1 x 10pF (trimmer)
+- 1 x 10k
+- 1 x 27k
+- 1 x 500ohm (trimmer)
+- 1 x 2SC1047 (NPN)(ECB)
 
 ## Scheme
 ![](scheme.png)
