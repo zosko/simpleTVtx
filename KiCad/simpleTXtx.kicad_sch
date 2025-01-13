@@ -1790,7 +1790,7 @@
 		(at 142.24 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4dd261bb-62ee-457d-81a5-4a90a304590b")
+		(uuid "720e60ec-61df-459c-b1b2-a728cc1e03f3")
 	)
 	(junction
 		(at 146.05 66.04)
@@ -2338,6 +2338,76 @@
 			(project ""
 				(path "/fbc081e3-fe18-474e-9d10-ef8b1f62625c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54d6a4b7-b31b-40b4-a22e-9e2c8638d600")
+		(property "Reference" "C6"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "10pF"
+			(at 140.97 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 134.62 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd666f9-12d3-4c15-bb21-bf2dc5c2edfe")
+		)
+		(pin "2"
+			(uuid "30fb0f1d-6c65-496d-96dc-70e00c202d35")
+		)
+		(instances
+			(project "simpleTXtx"
+				(path "/fbc081e3-fe18-474e-9d10-ef8b1f62625c"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3023,74 +3093,6 @@
 			(project ""
 				(path "/fbc081e3-fe18-474e-9d10-ef8b1f62625c"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Trim")
-		(at 138.43 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d270347a-dc99-4613-9858-be8b95122fcc")
-		(property "Reference" "C4"
-			(at 138.43 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "10pF"
-			(at 139.7 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm"
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fabc9145-c086-469d-b6ff-fe7be705b1d2")
-		)
-		(pin "2"
-			(uuid "b0b7dd60-ca09-44c7-af84-c19a57a90a59")
-		)
-		(instances
-			(project ""
-				(path "/fbc081e3-fe18-474e-9d10-ef8b1f62625c"
-					(reference "C4")
 					(unit 1)
 				)
 			)
